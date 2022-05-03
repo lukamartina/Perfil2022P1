@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>P1 TPs</title>
+    <script src="../funcionalidades.js"></script>
 </head>
 <body>
 
-<!--Ejercicio1-->
+    <h1>TP Luka Martina</h1>
 
-<h1>TP Luka Martina</h1>
+<!--Ejercicio1-->
 
     <h3>Ejercicio 1</h3>
 
@@ -23,26 +24,10 @@
 <label for="ej1_3">numero 3</label>
 <input type="number" id="ej1_c3">
 
-<button onclick="func_ej1()"> Comparar</button>
+<button onclick="func_ej1()"> Sumar</button>
 
 <label for="ej1_resultado">Resultado</label>
 <input type="text" id="ej1_resultado">
-
-<script>
-
-    function func_ej1 (){
-
-        let ej1_c1 = parseFloat (document.getElementById("ej1_c1").value);
-        let ej1_c2 = parseFloat (document.getElementById("ej1_c2").value);
-        let ej1_c3 = parseFloat (document.getElementById("ej1_c3").value);
-
-
-        let ej1_suma = ej1_c1 + ej1_c2 + ej1_c3
-
-        document.getElementById("ej1_resultado").value = ej1_suma
-
-    }
-</script>
 
 
  <!--Ejercicio2-->
@@ -60,18 +45,6 @@
 <label for="ej2_result">Resultado</label>
 <input type="text" id="ej2_result">
 
-<script>
-function func_ej2 (){
-
-    let ej2_n1 = parseFloat (document.getElementById("ej2_n1").value);
-    let ej2_n2 = parseFloat (document.getElementById("ej2_n2").value);
-
-    let ej2_result = ej2_n1 + ej2_n2 
-
-    document.getElementById("ej2_result").value = ej2_result
-
-}
-</script>
 
 <!--Ejercicio3-->
 
@@ -87,19 +60,12 @@ function func_ej2 (){
 <label for="ej2_result">Resultado</label>
 <input type="text" id="ej2_result">
 
+<!--Ejercicio4-->
 
-<script>
-
-function func_ej3() {
-    let ej3_suma = 0
-    for (let index = 0; index <= 100; index++) {
-        ej3_suma += index;  
-    }
-    alert(ej3_suma)
-}
+<h3>Ejercicio 4</h3>
 
 
-</script>
+
 
 
 </body>
